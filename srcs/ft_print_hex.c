@@ -6,7 +6,7 @@
 /*   By: htekeste <htekeste@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 13:02:33 by htekeste          #+#    #+#             */
-/*   Updated: 2023/03/04 16:53:59 by htekeste         ###   ########.fr       */
+/*   Updated: 2023/03/04 17:18:25 by htekeste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	ft_print_hex(unsigned long nbr, char type)
 {
 	if (nbr == 0)
 	{
-		ft_putnbr_fd(0, 1);
+		ft_putchar_fd('0', 1);
 		return (1);
 	}
 	ft_puthex((unsigned int) nbr, type);

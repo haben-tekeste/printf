@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 
-SRCS			=	ft_putchar_fd.c ft_putstr_fd.c ft_itoa.c ft_putnbr_fd.c
+SRCS			=	ft_putchar_fd.c ft_putstr_fd.c ft_itoa.c
 OBJS			= $(SRCS:.c=.o)
 
 BONUS_OBJS		= $(BONUS:.c=.o)
